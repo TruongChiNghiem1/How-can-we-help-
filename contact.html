@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Got Any Questions</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="Stylesheet" href="css/bootstrap-reboot.min.css"/>
+        <link rel="Stylesheet" href="css/bootstrap.min.css"/>
+        <link rel="Stylesheet" type="text/css" href="css/icofont.min.css"/>
+        <link rel="Stylesheet" href="css/style.css"/>
+    </head>
+    <body id="uk-blur">
+        <header class="sticky-top"><!--sticky-top : thanh trên đầu đứng im-->
+            <div class="uk-container">
+                <div class="uk-top19 height-80px d-flex align-items-center">
+                    <div class="d-flex width-100">
+                        <div class="justify-content-flex-start">
+                            <a href="index.html"><img src="img/logo-dark.svg"/></a>
+                        </div>
+
+                        <div class="width-100">
+                                <div class="d-flex align-items-center justify-content-flex-end">
+                                    <div class="index1000">
+                                        <div class="menu-1">
+                                            <div class="color-white d-flex flex-row-reverse bd-highlight align-items-center">
+                                                <a href="contact.html" class="color-black p-2 bd-highlight font-size13px khoangcach">CONTACT</a>
+                                                <a href="FAQ.html" class="color-black font-header p-2 bd-highlight font-size13px khoangcach">FAQ</a>
+                                                <a href="index.html" class="color-black font-header p-2 bd-highlight font-size13px khoangcach">HELP</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <!--Rebonsive menu-->  
+                                        <div class="menu-notshow">
+                                            <div id="menu-show" class="uk-menu1 uk-offcanvas-overlay">
+                                                <ul class="">
+                                                    <li class="uk-top18"><a href="index.html" class="color-grey2 p-2 bd-highlight font-header p-2 bd-highlight xoa-gach font-size0875">Help</a></li>
+                                                    <li class="uk-top18"><a href="FAQ.html" class="color-grey2 p-2 bd-highlight font-header p-2 bd-highlight xoa-gach font-size0875">Faq</a></li>
+                                                    <li class="uk-top18"><a href="contact.html" class="color-grey2 p-2 bd-highlight font-header p-2 bd-highlight xoa-gach font-size0875">Contact</a></li>
+                                                    <div class="d-flex uk-center um-top3 um-top4 uk-top16">
+                                                        <a href="https://www.youtube.com/channel/UCaf4jLj4hxp8qXlE47FDOQA" class="underlined-off"><i class="color-grey2 icon icofont-facebook uk-top15"></i></a>
+                                                                    <a href="https://www.instagram.com/nghiem.truong.35513/" class="underlined-off"><i class="color-grey2 icon icofont-instagram uk-top15"></i></a>
+                                                                    <a href="https://www.youtube.com/channel/UCaf4jLj4hxp8qXlE47FDOQA" class="underlined-off"><i class="color-grey2 icon icofont-brand-youtube uk-top15"></i></a>
+                                                                    <a href="https://www.instagram.com/nghiem.truong.35513/" class="underlined-off"><i class="color-grey2 icon icofont-instagram uk-top15"></i></a>
+                                                    </div>
+                                                </ul>
+                                                <div class="close-button cach-phai">
+                                                    <i id="close" class="color-grey2 icon icofont-ui-close"></i>
+                                                </div>
+                                            </div>
+                                            <div class="menu-open">
+                                                <i id="open" class="color-grey icofont-navigation-menu icon font-size15"></i>
+                                            </div>
+                                        </div>  
+                                </div>
+                        </div>
+                        
+                    </div>
+                    <!--search-->
+                    <div id="search-show" class="index100000 uk-none">
+                        <div class="index d-flex align-items-center">
+                            <input class="form-control me-2 color-white3 width-350px" type="search" placeholder="Search" aria-label="Search">
+                        </div>
+                    </div>
+                    
+                    <i id="search" class="icon icofont-search color-black uk-top25"></i>
+
+                    <div class="menu-notshow uk-top25">
+                        <div id="search-show" class="menu-open">
+                            <i id="open" class="color-grey icofont-navigation-menu icon font-size15"></i>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        <hr/>
+        </header>
+
+        <section class="content">
+            <div class="uk-top3">
+                <div class="uk-container uk-top19 uk-container-sm">
+                    <div>
+                        <h1 class="color-purple bold font-size2 uk-top5">Got Any Questions</h1>
+                        
+                        <p>Submit the form and confirm your email address at FormSpree. Then add the following lines to contact page YAML Front Matter.</p>
+                    
+                        <p class="bold font-size15">Contact Form</p>
+                        <div>
+                            <div>
+                                <p class="um-top8">Name</p>
+                                <div class="row">
+                                    <div class="col">
+                                      <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                                    </div>
+                                    <div class="col">
+                                      <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                                    </div>
+                                  </div>
+                            </div>
+                            <div>
+                                <p class="um-top8">Emali</p>
+                                <div class="form-floating mb-3">
+                                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                                  </div>
+                            </div>
+                            <div>
+                                <p class="um-top8">Subject</p>
+                                <div class="form-floating">
+                                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                                  </div>
+                            </div>
+                            <div>
+                                <p class="um-top8">Message</p>
+                                <div class="form-floating">
+                                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                                  </div>
+                            </div>
+                            <div class="uk-top11">
+                                <button type="submit" class="bg-purple width-100 height-53px btn btn-primary">SEND</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="color-white2">
+            <div class="container uk-top3 um-top3 color-footer">
+                    <div class="d-flex uk-center">
+                        <a href="index.html" class="underlined-off"><p class="color-grey2 uk-top15">Help</p></a>
+                        <a href="FAQ.html" class="underlined-off"><p class="color-grey2 uk-top15">Faq</p></a>
+                        <a href="contact.html" class="underlined-off"><p class="color-grey2 uk-top15">Contact</p></a>
+                    </div>
+                    <div class="d-flex uk-center um-top3 um-top4">
+                        <a href="https://www.youtube.com/channel/UCaf4jLj4hxp8qXlE47FDOQA" class="underlined-off"><i class="color-grey2 icon icofont-facebook uk-top15"></i></a>
+                        <a href="https://www.instagram.com/nghiem.truong.35513/" class="underlined-off"><i class="color-grey2 icon icofont-instagram uk-top15"></i></a>
+                        <a href="https://www.youtube.com/channel/UCaf4jLj4hxp8qXlE47FDOQA" class="underlined-off"><i class="color-grey2 icon icofont-brand-youtube uk-top15"></i></a>
+                        <a href="https://www.instagram.com/nghiem.truong.35513/" class="underlined-off"><i class="color-grey2 icon icofont-instagram uk-top15"></i></a>
+                    </div>
+                    <div class="um-top5 d-flex uk-center">
+                        <p class="uk-top16">Made by Truong chi nghiem offical</p>
+                    </div>
+            </div>
+        </footer>
+    </body>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            //search
+            $("#search").click(function(e){
+                $("#search-show").toggle(350);
+                $("#search-show").css({"display":"flex"});
+            })
+            //menu
+            $("#open").click(function(e){
+                var a = $("#menu-show").width();
+                $("#menu-show").show();
+                $("#menu-show").css({"display":"flex"});
+                $("#menu-show").animate({
+                    width:'270px'
+                },500);
+                $("#uk-blur").css({"background-color":"#a9a9a963"});
+            })
+            $("#close").click(function(e){
+                $("#menu-show").animate({
+                    width:'0%'
+                },500);
+                $("#menu-show").hide(500);
+                $("#uk-blur").css({"background-color":"#b3b3b300"});
+            })
+            $()
+        })
+        $(document).ready(function(e){
+            $("#button1").click(function(e){
+                $("#mo1").toggle(350);
+                $("#mo1").css({"display":"flex"});
+                $("#mo1").animate({
+                    'height':'100%'
+                },400);
+            })
+            $("#button1").click(function(e){
+                $("#tat").toggle(0);
+                $("#tat").css({"display":"none"});
+            })
+            $("#button2").click(function(e){
+                $("#mo2").toggle(350);
+                $("#mo2").css({"display":"flex"});
+                $("#mo2").animate({
+                    'height':'100%'
+
+                },400);
+            })
+            $("#button3").click(function(e){
+                $("#mo3").toggle(350);
+                $("#mo3").css({"display":"flex"});
+                $("#mo3").animate({
+                    'height':'100%'
+
+                },400);
+            })
+            $("#button4").click(function(e){
+                $("#mo4").toggle(350);
+                $("#mo4").css({"display":"flex"});
+                $("#mo4").animate({
+                    'height':'100%'
+
+                },400);
+            })
+            $("#button5").click(function(e){
+                $("#mo5").toggle(350);
+                $("#mo5").css({"display":"flex"});
+                $("#mo5").animate({
+                    'height':'100%'
+
+                },400);
+            })
+            $("#button6").click(function(e){
+                $("#mo6").toggle(350);
+                $("#mo6").css({"display":"flex"});
+                $("#mo6").animate({
+                    'height':'100%'
+
+                },400);
+            })
+            $("#button7").click(function(e){
+                $("#mo7").toggle(350);
+                $("#mo7").css({"display":"flex"});
+                $("#mo7").animate({
+                    'height':'100%'
+
+                },400);
+            })
+        })
+    </script>
+</html>
